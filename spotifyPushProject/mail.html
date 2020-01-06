@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+</head>
+
+<body>
+    <h2>Cześć i czołem!</h2>
+    <p>Dzień dobry, <?= overdue.name ?></p>
+    <p>
+        Wygląda na to, że Twoja ostatnia zrzutka na Spotify premium została już wykorzystana, było to dokładnie
+        <?= overdue.dueDate_str ?>. Od tego czasu minęło już <?= overdue.numDays ?> dni.
+    </p>
+    <p>
+        Pieniążki możesz wpłacić na moje konto: <strong>NUMER KONTA.</strong>
+    </p>
+            <p>Z góry dzięki i miłego dzionka!</p>
+
+</body>
+
+</html>
+
+<!-- ---ENGLISH VERSION---
+    Hey hi hello!
+
+    Good morning, <?=overdue.name ?>
+
+    It looks like your last contribute to our Spotify account is overdue, it was <?= overdue.dueDate_str ?>.
+    It has been <?= overdue.numDays ?> days since then.
+
+    You can transfer the money straight to my account: ACCOUNT NUMBER.
+
+    Thanks in advance and have a nice day!
+-->
