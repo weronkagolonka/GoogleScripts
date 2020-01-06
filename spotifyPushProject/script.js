@@ -87,7 +87,7 @@ function sendEmail(column) {
     var message = templ.evaluate().getContent();
 
     var templ2 = HtmlService
-        .createTemplateFromFile('dlamnie');
+        .createTemplateFromFile('mail_for_me');
     templ2.overdue = overdue;
     var myMessage = templ2.evaluate().getContent();
 
